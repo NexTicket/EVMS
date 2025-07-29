@@ -1,6 +1,7 @@
 {
   "name": "evms",
   "version": "1.0.0",
+  "type": "module",
   "description": "Event and Venue Management System",
   "main": "index.js",
   "scripts": {
@@ -12,7 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "@prisma/client": "^6.12.0",
+    "@supabase/supabase-js": "^2.53.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "prisma": "^6.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
